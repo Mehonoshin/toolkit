@@ -1,0 +1,3 @@
+#!/bin/sh
+# TODO: pass database name as parameter to SQL script
+psql -U postgres -w -f ./tools/db_reset/db_reset.sql
